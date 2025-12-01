@@ -1,4 +1,4 @@
-name: CI & Release
+name: Semantic Release
 
 on:
   # Build on pushes branches that have a PR (including drafts)
