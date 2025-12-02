@@ -85,5 +85,6 @@
       "esbuild-register"
     ],
     "check-coverage": false
-  }
+  },
+  "packageManager": "pnpm@10.16.1"
 }
