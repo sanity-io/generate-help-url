@@ -1,7 +1,6 @@
-import tap from 'tap'
-import {generateHelpUrl} from '../src'
+import {test, } from 'node:test'
+import {generateHelpUrl} from '@sanity/generate-help-url'
 
-tap.test('should generate valid url', (t) => {
-  t.same(generateHelpUrl('foo-bar'), 'https://www.sanity.io/docs/help/foo-bar')
-  t.end()
+test('should generate valid url', (t) => {
+  t.assert.equal(generateHelpUrl('foo-bar'), 'https://www.sanity.io/docs/help/foo-bar')
 })
